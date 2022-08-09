@@ -5,7 +5,7 @@ const ruleTester = new RuleTester({
     ecmaVersion: 'latest'
   }
 })
-const identifiers = ['Buffer', 'EventEmitter', 'ReadableStream', 'WritableStream', 'Readable', 'Writable', 'Duplex', 'Transform']
+const identifiers = ['Buffer', 'EventEmitter', 'ReadableStream', 'WritableStream', 'Readable', 'Writable', 'Duplex', 'Transform', 'FileReader']
 
 const valid = [{ code: 'const fs = "something"' }]
 const invalid = [

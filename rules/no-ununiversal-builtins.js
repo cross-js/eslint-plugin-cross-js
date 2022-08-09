@@ -1,4 +1,4 @@
-const identifiers = ['fs', 'Buffer', 'EventEmitter', 'ReadableStream', 'WritableStream', 'Readable', 'Writable', 'Duplex', 'Transform']
+const identifiers = ['fs', 'Buffer', 'EventEmitter', 'ReadableStream', 'WritableStream', 'Readable', 'Writable', 'Duplex', 'Transform', 'FileReader']
 
 function checkGlobal (context, node, name) {
   if (!identifiers.includes(name)) return null
